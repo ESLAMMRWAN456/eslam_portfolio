@@ -14,6 +14,16 @@ const config: Config = {
         panel: "#0d1320",
         line: "rgba(255,255,255,0.12)"
       },
+      fontFamily: {
+        sans: ["var(--font-sans)", "ui-sans-serif", "system-ui", "sans-serif"],
+        mono: [
+          "ui-monospace",
+          "SFMono-Regular",
+          "Menlo",
+          "Consolas",
+          "monospace"
+        ]
+      },
       boxShadow: {
         glow: "0 24px 80px rgba(45, 212, 191, 0.18)"
       }
